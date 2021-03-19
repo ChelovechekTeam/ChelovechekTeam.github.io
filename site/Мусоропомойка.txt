@@ -1,0 +1,41 @@
+@media screen and (max-width : 415px) and (max-device-height: 824px) {
+	.container{
+		width: 100%;
+		background-color: rgba(255,255,255,0.0);
+	}
+	.blocks{
+		flex-direction: column;
+	}
+	
+}
+@media screen and (min-width : 321px) and (max-height: 400px) {
+	.container{
+		width: 95%;
+	}
+	.ans{
+		font-size: 10px;
+	}
+	.input{
+		max-height: 200px;
+	}
+	.blocks{
+		min-height:200px;
+	}
+	.textarea{
+		height: 200px;
+	}
+}
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+	.container{
+		width: 100%;
+		background-color: rgba(255,255,255,0.7);
+	}
+	.blocks{
+		flex-direction: column;
+	}
+			
+}
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.container{
+		width: 95%;
+	}

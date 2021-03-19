@@ -1,0 +1,39 @@
+.text{
+	max-height: 400px;
+	overflow:auto;
+	word-wrap: break-word;
+
+}
+.font_textarea{
+	font-family: cursive;
+	color: black;
+}
+.font_textarea.active{
+	color:  grey;
+}
+.text_coming_soon{
+	font-size: 50px;
+	text-align: center;
+	
+}
+.text_coder{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+
+	font-family: cursive;
+}
+.text_coder:hover{
+	color: red;
+}
+.link_coder{
+	align-items: center;
+	text-decoration: underline;
+}
+.link_coder:hover{
+	color: red;
+}
+
+
+
+

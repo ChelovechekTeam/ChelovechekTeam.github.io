@@ -1,0 +1,248 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	overflow: hidden;
+	height: 100%;
+}
+.page{
+	min-width: 100%;
+	min-height: 100vh;
+	background-image: url(../img/background1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container{
+	width: 90%;
+	background-color: rgba(255,255,255,0.8);
+	margin: 0 auto;
+	
+}
+
+
+.header{
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+ .Ptext{
+ 	text-align: center;
+ 	font-size: 120px;	
+ }
+.navig{
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+}
+
+	.logo{
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-position:center;
+		height: 100%;
+		width: 100%;
+		max-width: 400px;
+		background-image: url(../img/rofl_logo1.jpg); 
+	}
+.textarea{
+	width: 100%;
+	max-width: 100%;
+	resize: none;
+	height: 400px;
+	border: none;
+	font-size: 40px;
+	background-color: rgba(255,255,255,1);
+	border-right: 2px solid grey;
+	border-bottom: 2px solid grey;
+}
+.textarea:focus{
+	outline: none;
+	font-size: 40px;
+}
+::-webkit-input-placeholder{
+	font-size: 40px;
+	color: grey;
+
+}
+.mainpg{
+	padding-left: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-top: 60px;
+	width: 100%;
+	display: inline-block;
+	height: 100vh;
+}
+.coming{
+	margin: 0;
+	width: 100%;
+	height: 60%;
+	background-color: rgba(255,255,255,0.0);
+	margin-top: 1%;
+	display: inline-block;
+}
+	/*coming*/
+	.coming_soon{
+		padding-left: auto;
+		padding-right: auto;
+		width:100%;
+		height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.coder{
+		height: 50%;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+		/*coder*/
+		.firstcoder{
+			height: 100%;
+			width: 50%;
+		}
+			.firstcoder_text{
+				width: 40%;
+				float: right;
+				height: 100%;
+				
+			}
+		.secondcoder{
+			width: 50%;
+			height: 100%;
+		}
+			.secondcoder_text{
+				width: 40%;
+				float: left;
+				height: 100%;
+			
+			}
+
+.blocks{ 
+	width: 100%;
+	min-height: 400px;
+	height: 100%;
+	max-height: 430px;
+	padding: 1% 1% 1% 1%;
+	background-color: rgba(255,255,255,1);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+	/*blocks*/
+	.block_text{
+		width:100%;
+		height: 100vh;
+	}
+	.input{
+		max-height: 400px;
+		width: 47%;
+		display: block;
+		
+
+	}
+	.key{
+		display: block;
+		width: 5%;
+		
+	}
+	.btn{
+		border:none;
+		background-image: url(../img/arrow.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position:center;
+		min-width:100%;
+		min-height:40px;
+		height: 100%;
+		outline: none;
+	}
+		.btn0{
+		border:none;
+		background-image: url(../img/arrow1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position:center;
+		min-width:100%;
+		min-height:40px;
+		height: 100%;
+		outline: none;
+	}
+	.btn:hover{
+		background-color: red;
+	}
+	.output{
+		padding-left: 1%;
+		width: 47%;
+		display: block;
+		height: 400px;
+		border-left: 2px solid grey;
+		border-bottom: 2px solid grey;
+	}
+		.ans{
+			font-size: 40px;
+		}
+
+
+@media screen and (max-height: 1025px) and (max-width: 1343px) {
+	.blocks{
+		min-height: 200px;
+		height: 100%;
+		max-height: 220px;
+	}
+	.textarea{
+		height: 200px;
+	}
+	.input{
+		max-height: 200px;
+	}
+	.output{
+		height: 200px;
+	}
+	.textarea{
+		font-size: 30px;
+	}
+	.textarea:focus{
+		font-size: 30px;	
+	}	
+	.ans{
+		font-size: 30px;
+	}
+	::-webkit-input-placeholder{
+		font-size: 30px;
+	}
+	.text_coming_soon{
+		font-size: 40px;
+	}
+	.coming_soon{
+		height: 60px;
+	}
+	.navig{
+		height: 60px;
+	}
+	.text_coder{
+		font-size: 20px;
+	}
+}	
+
+
