@@ -250,7 +250,7 @@ html, body{
 @media screen and (max-width: 1025px) and (min-width:100px ) and (orientation:portrait) {
 	.container{
 		width: 100%;
-		background-color: rgba(255,255,255,0.9);
+		background-color: rgba(255,255,255,0.5);
 		margin: 0 auto;
 	}
 	::-webkit-input-placeholder{
