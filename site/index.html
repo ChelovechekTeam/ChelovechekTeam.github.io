@@ -3,85 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/text.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="script/scr.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script type="text/javascript" src="script/src.js"></script>
-	<title>ChelovechekTeam</title>
+	<title>Задание 7</title>
 </head>
 <body>
-	<div class="page">
+	<div class="main_block">
 		<header class="header">
-			<div class="container">
-				<div class="navig">
-					<div class="logo">
-						
-					</div>
-					<nav class="keys">
-						
-					</nav>
-					<div class="creator">
-						
-					</div>
-				</div>
-			</div>
+			<h1>Удовольствие от видео</h1>
 		</header>
-		<div class="main">
-			<div class="container">
-				<div class="mainpg">
-					<div class="blocks">
-						<div class="input">
-							<form>
-								<textarea rows="10" class="textarea font_textarea" type=text name=textField placeholder="Калі ласка, увядзіце сюды слова з вялікай літары..." autofocus="true"></textarea>
-							</form>				
-						</div>
-						<div class="key">
-							<form id = 'lol'>
-								<input type="button" id="image" class="btn" value="" onClick="getData()">
-							</form>
-						</div>
-						<div class="output">
-							<span class="ans">
-								<p class="text font_textarea" id="ans">Чакаем ўводу тэксту...</p>
-							
-							</span>
-						</div>
-					</div>
-					<div class="coming">
-						<div class="coming_soon">
-							<p class="text_coming_soon">Хутка будзе... Вы ўбачыце гэтую частку старонкі пазней.
-							</p>
-						</div>
-						<div class="coder">
-							<div class="firstcoder">
-								<div class="firstcoder_text">
-									<p class="text_coder">Front-End Developer</p>
-									<a class="text_coder link_coder" href="https://vk.com/cmepthuk228">
-										<p class="text_coder">	
-											Артём Юшкевич
-										</p>				
-									</a>
-									<p class="text_coder"></p>
-								</div>
-							</div>
-							<div class="secondcoder">
-								<div class="secondcoder_text">
-									<p class="text_coder">
-										Back-End Developer
-									</p>
-									<a class="text_coder link_coder" href="https://vk.com/idsime">
-										<p class="text_coder">	
-											Никита Тразанов
-										</p>				
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
+		<main class="main">
+			<h2>Управление плеером</h2>
+			<video controls poster="posterimage.jpg" width="400px" height="300px" src="landscape.mp4">
+				<source src="landscape.mp4" type="video">
+				<track src="/Lab/laba2 web/task7/landscape.vtt" srclang="ru" label="landscape" default="">
+			</video>
+		</main>
 	</div>
 </body>
 </html>
